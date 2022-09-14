@@ -3,7 +3,7 @@ const { NODE_ENV } = process.env;
 if (NODE_ENV === "production") {
   BASE_URL = "https://mestoherokubackend.herokuapp.com";
 } else {
-  BASE_URL = "http://localhost:3000";
+  BASE_URL = "https://mestoherokubackend.herokuapp.com";
 }
 
 function checkResponse(res) {
